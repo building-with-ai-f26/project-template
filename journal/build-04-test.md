@@ -23,7 +23,7 @@
 - **How you diagnosed and fixed (or rolled back) them:** 
 
 ## 5. What it cost
-- **OpenRouter / Agent spend this week:** `$___`
+- **Agent / Token spend this week:** `$___`
 - **Hosting / API runtime spend this week:** `$___`
 - **Your hours spent this week:** `___ hrs`
 - **Cumulative project spend to date:** `$___`
