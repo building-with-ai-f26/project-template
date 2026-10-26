@@ -1,6 +1,8 @@
 # Sponsor Memo — Invest, Maintain, or Sunset
 
-**Due:** Monday, Dec 14, 2026 at 12:00 PM (Noon)  
+Keep the finished memo to **one page**. Publish it here, link it from your Product Page, and submit in Icerynk.
+
+**Due:** Monday, Dec 14, 2026 at noon, New York time  
 **Product:** [Project Name] ([Live URL](#))  
 **Builder:** [Your Name]
 
@@ -14,7 +16,7 @@
 ## 2. Real Usage & Evidence
 *Who actually used the product (outside of you), what job did they use it for, and what happened?*
 
-- **Users & sessions:** 
+- **Users & sessions (with PostHog evidence):** 
 - **What worked in their hands:** 
 - **Where they got stuck or what broke:** 
 

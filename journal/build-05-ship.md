@@ -1,6 +1,8 @@
 # Build 5: Ship.installer (Live Product & 2-Minute Video)
 
-**Due:** Monday, Dec 7, 2026 at 12:00 PM (Noon)
+Optional working notes. Publish your required build log on `docs/index.html`; no separate journal submission is required.
+
+**Build due:** Monday, Dec 7, 2026 at 12:00 PM (Noon)
 
 ---
 
@@ -33,4 +35,4 @@
 
 ## 6. Pod Critique Sign-off
 - **Tested by podmate(s):** 
-- **Key feedback to address next:** 
+- **Key feedback to address next:**

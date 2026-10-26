@@ -1,12 +1,14 @@
 # Build 1: Intent.md & Throwaway Prototype
 
-**Due:** Monday, Nov 9, 2026 at 12:00 PM (Noon)
+Optional working notes. Publish your required build log on `docs/index.html`; no separate journal submission is required.
+
+**Build due:** Monday, Nov 9, 2026 at 12:00 PM (Noon)
 
 ---
 
 ## 1. What you made
 - **PRs / Commits shipped:** 
-- **Live URL / Demo link:** 
+- **Product Page URL / local demo evidence:** 
 - **Summary of what works now:** 
 
 ## 2. Metacognition ("Learn with AI"): Terminal, Filesystem & Git
@@ -34,4 +36,4 @@
 
 ## 6. Pod Critique Sign-off
 - **Tested by podmate(s):** 
-- **Key feedback to address next:** 
+- **Key feedback to address next:**

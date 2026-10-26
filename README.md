@@ -4,46 +4,42 @@
 
 - **Builder:** [Your Name] (`@github-handle`)
 - **Pod:** [Pod Name / Number]
-- **Product Landing Page & Living PRD (GitHub Pages):** [https://building-with-ai-f26.github.io/<your-repo-name>/](#)
-- **Live App URL:** [https://your-live-url.com](#)
+- **Product Page & Living PRD:** [Add your GitHub Pages URL]
+- **App:** runs locally through Week 4; add a cloud URL in Build 5.
 
----
+## Start here: Build 1
 
-## Turn On Your Free Single-Page Product Site (Do This in Week 1!)
+**Due Monday, November 9 at noon, New York time.** No class November 3; keep building that week.
 
-Your repository comes with a ready-made single-page Product Site at [`docs/index.html`](./docs/index.html). It acts as your **public product landing page**, your **living PRD**, your **weekly build log**, and the home for your **PostHog analytics snippet**.
+1. Join the [class organization](https://github.com/building-with-ai-f26), then use this template to create a **public** repo named `<netid>-<project-slug>`. Ask Christian or Hew if the organization is missing from the owner list.
+2. Set up Git and one coding agent during the week of October 27. Follow the [Icerynk setup guide](https://www.icerynk.com/c/fa26-tech-gb-2160-dm2-f2/content/pre-class-setup-github-openrouter-your-coding-agent).
+3. Publish [`docs/index.html`](./docs/index.html): **Settings → Pages → Deploy from a branch → main → /docs → Save**. When deployment finishes, open `https://building-with-ai-f26.github.io/<your-repo-name>/`.
+4. Fill in PRD v1: a reachable user, their painful before/after workflow, one core workflow, and three non-goals.
+5. Build a rough local prototype. Add a screenshot or GIF and an honest Build 1 log to the Product Page, including progress, learning, problems, costs, and hours.
+6. Push meaningful commits on **at least two separate days each week outside class**, including the November 3 break.
+7. Submit your **Product Page URL and repository URL in Icerynk**. Come ready to demo the prototype in two minutes on November 10.
 
-To make it live on the internet in 30 seconds:
-1. On your GitHub repository page, click **Settings** (top tab) -> **Pages** (left sidebar).
-2. Under **Build and deployment**, set **Source** to `Deploy from a branch`.
-3. Select branch **`main`** and folder **`/docs`**, then click **Save**.
-4. Within 60 seconds, your site will be live at `https://building-with-ai-f26.github.io/<your-repo-name>/`.
+Create your PostHog account in Week 1. Install it on the Product Page and local app in **Build 2**, then verify events. The Product Page is public from Build 1; the app can stay local through Week 4.
 
----
+## Repository map
 
-## Repository Map
+| File / folder | Purpose |
+| --- | --- |
+| [`docs/index.html`](./docs/index.html) | Required public pitch, living PRD, and weekly build log. Update with actual work and evidence. |
+| [`Intent.md`](./Intent.md), [`Plan.md`](./Plan.md), [`journal/`](./journal/) | Optional drafting aids. No duplicate submission is required. |
+| [`AGENTS.md`](./AGENTS.md) | Local run commands, project context, and agent rules. Build 2 onward. |
+| [`tests/`](./tests/) | Verification guidance. Build 4 offers Track A domain evals **or** Track B user replays. |
+| [`SPONSOR_MEMO.md`](./SPONSOR_MEMO.md) | One-page recommendation backed by actual usage, full costs, and risks. Due December 14 at noon. |
 
-| File / Folder | Purpose | Updated |
-| :--- | :--- | :--- |
-| [`docs/index.html`](./docs/index.html) | **Single-Page Product Site:** Public pitch, Living PRD, PostHog analytics snippet, and Weekly Build Log | Every week ($\ge 2$ commit days/wk) |
-| [`Intent.md`](./Intent.md) / [`Plan.md`](./Plan.md) | Markdown scratchpads for your initial spec & architecture plan (kept in sync with your Product Page PRD) | Weeks 1–2 |
-| [`AGENTS.md`](./AGENTS.md) | Operating manual & rules for your coding agent (`Claude Code`, `Codex`, or `Pi`) | Week 2+ |
-| [`tests/`](./tests/) | **Build 4:** 10-scenario test scorecard and automated checks | Mon, Nov 30 @ Noon |
-| [`journal/`](./journal/) | Weekly build journal notes (can be linked from or mirrored on `docs/index.html`) | Every Monday @ Noon |
-| [`SPONSOR_MEMO.md`](./SPONSOR_MEMO.md) | **Final Write-up:** 1-page executive call (`Invest`, `Maintain`, or `Sunset`) backed by PostHog & cost data | Mon, Dec 14 @ Noon |
+[Icerynk](https://www.icerynk.com/c/fa26-tech-gb-2160-dm2-f2/content) holds the assignment instructions and submissions.
 
----
+## Local setup
 
-## Local Setup
+Clone **your own repository** and ask your coding agent to document the exact install and run commands here and in `AGENTS.md`.
 
 ```bash
-# 1. Clone your repo
-gh repo clone building-with-ai-f26/<your-repo-name>
+git clone https://github.com/building-with-ai-f26/<your-repo-name>.git
 cd <your-repo-name>
-
-# 2. Configure environment variables (never commit .env!)
-cp .env.example .env
-
-# 3. Install dependencies & run
-# [Ask your coding agent to add your exact run command here]
 ```
+
+If your app needs API keys, use a local environment file such as `.env`. Keep private keys out of source code, browser code, screenshots, and commits. The template ignores `.env`; `.env.example` contains placeholders only.
