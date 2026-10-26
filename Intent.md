@@ -1,6 +1,8 @@
-# Intent.md — Product Brief (Build 1)
+# Intent.md — Optional PRD Draft (Build 1)
 
-**Due:** Monday, Nov 9, 2026 at 12:00 PM (Noon)  
+Use this as a scratchpad if helpful. Publish the required PRD and Build 1 log on `docs/index.html`; this file is not a separate hand-in.
+
+**Build 1 due:** Monday, Nov 9, 2026 at noon, New York time  
 **Builder:** [Your Name]
 
 ---
@@ -18,15 +20,17 @@
 - **New workflow with this product (after):** 
 - **Why this is useful** *(used weekly / saves real time / worth paying for)*: 
 
-## 3. What is strictly OUT of scope?
+## 3. What is in and out of scope?
+
+- **One core workflow:**
 *You have six weeks. List the features, integrations, and polish you are deliberately NOT building.*
 
 - [ ] Not building: 
 - [ ] Not building: 
 - [ ] Not building: 
 
-## 4. Throwaway Prototype (Build 1 Deliverable)
+## 4. Rough Local Prototype
 *What did you spike this week to test the core idea, and what did you learn from throwing it at the problem?*
 
-- **Prototype link / branch / screenshot:** 
-- **What worked vs. what surprised me:** 
+- **Local run command / branch / screenshot:** 
+- **What worked vs. what surprised me:**

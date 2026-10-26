@@ -1,16 +1,18 @@
 # Build 3: Build.exe (The Core, in Small Changes)
 
-**Due:** Monday, Nov 23, 2026 at 12:00 PM (Noon)
+Optional working notes. Publish your required build log on `docs/index.html`; no separate journal submission is required.
+
+**Build due:** Monday, Nov 23, 2026 at 12:00 PM (Noon)
 
 ---
 
 ## 1. What you made
 - **PRs / Commits shipped:** 
-- **Live URL / Demo link:** 
+- **Product Page URL / local demo evidence:** 
 - **Summary of what works now:** 
 
 ## 2. Metacognition ("Learn with AI"): Branches, Diffs & Agent Guardrails
-- **3 specific lines from your branch diff (`git diff main...HEAD`) your AI tutor quizzed you on (what they do and what breaks if deleted):**
+- **Changes your AI tutor helped you understand: what changed, why it matters, and how you checked it:**
   1. 
   2. 
   3. 
@@ -33,4 +35,4 @@
 
 ## 6. Pod Critique Sign-off
 - **Tested by podmate(s):** 
-- **Key feedback to address next:** 
+- **Key feedback to address next:**

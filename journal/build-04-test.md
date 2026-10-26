@@ -1,17 +1,20 @@
-# Build 4: Test.py (Tests & Model Evals)
+# Build 4: Test.py (Choose Domain Evals or User Replays)
 
-**Due:** Monday, Nov 30, 2026 at 12:00 PM (Noon)
+Optional working notes. Publish your required build log on `docs/index.html`; no separate journal submission is required.
+
+**Build due:** Monday, Nov 30, 2026 at 12:00 PM (Noon)
 
 ---
 
 ## 1. What you made
 - **PRs / Commits shipped:** 
-- **Live URL / Demo link:** 
+- **Product Page URL / local demo evidence:** 
 - **Summary of what works now:** 
 
-## 2. Metacognition ("Learn with AI"): Deterministic Code vs. Probabilistic Models
-- **Where the boundary sits in your repo between deterministic code (`assert` tests) and probabilistic model calls (evals):** 
-- **Worst test/eval failure this week, and whether the fix belonged in deterministic code or in the prompt/model config (and why):** 
+## 2. Evidence from your chosen track
+- **Track A — Domain quality:** 3–4 rubric rules, 10 cases (5 normal, 3 messy, 2 adversarial), before/after results, and one outside target-user review.
+- **Track B — User friction:** 3–5 outside users, uncoached attempts and replay findings, fixes to the top three friction points, and before/after evidence.
+- **What the evidence changed in PRD v4:** 
 
 ## 3. What the agent did
 - **Agent(s) & Model(s) used:** 
@@ -30,4 +33,4 @@
 
 ## 6. Pod Critique Sign-off
 - **Tested by podmate(s):** 
-- **Key feedback to address next:** 
+- **Key feedback to address next:**

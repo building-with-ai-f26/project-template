@@ -1,5 +1,5 @@
-## Explain Every Change You Ship
-*(Write this yourself without the agent's help—you should be able to defend every line in this diff during studio critique.)*
+## Review the Change
+*Use AI to help you understand the change, then explain it in your own words.*
 
 ### 1. What changed?
 - 
@@ -10,10 +10,8 @@
 ### 3. What could break because of this change?
 - 
 
-### 4. Which test or eval proves it works?
-- [ ] Automated test (`tests/...`) fails before and passes after
-- [ ] Model eval (`tests/...`) verifies LLM output quality
-- [ ] Manual QA verified on branch/preview
+### 4. How did you check it?
+Describe the relevant automated checks, evals, or manual testing and their results. Name anything still unverified.
 
 ### 5. Cost & Agent Note
 - **Agent / Model used:** 
